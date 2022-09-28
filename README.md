@@ -21,3 +21,25 @@ I don't have the budget to set up server infrastructure to store images and PDFs
 ### Why Next.js in a desktop app!?
 
 I know, one of the main strenghts of Next.js is SSR and SSG, which are both completely irrelevant for desktop environments. But I decided to use it because of other advantages such as the simple communication with the backend (especially when using [tRPC]()) and the fact that I can just use NextAuth for Google/YouTube logins and account access (which I had already figured out for another project and is something this app might benefit from sooner or later).
+
+## Local project setup
+
+### Install dependencies
+
+```
+# using yarn or npm
+$ yarn (or `npm install`)
+
+# using pnpm
+$ pnpm install --shamefully-hoist
+```
+
+### Run
+
+```
+# development mode
+$ yarn dev (or `npm run dev` or `pnpm run dev`)
+
+# production build
+$ yarn build (or `npm run build` or `pnpm run build`)
+```
