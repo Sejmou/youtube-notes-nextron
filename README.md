@@ -1,5 +1,5 @@
 # YouTube Notes
-NOTE: This repo was abandonded as everything seemed way too annoying to implement. I tried it again using Tauri instead of Electron [here](https://github.com/Sejmou/youtube-notes-).
+NOTE: This repo was abandonded as everything seemed way too annoying to implement. I tried it again using Tauri instead of Electron [here](https://github.com/Sejmou/youtube-notes).
 
 In this repo, I want to create a desktop app that makes it possible to take notes while watching YouTube videos (especially educational ones).
 
